@@ -1,6 +1,6 @@
 - op: replace
   path: /spec/host
-  value: "bgd-bgd.apps.paris-dev.cp.fyre.ibm.com"
+  value: "bgd-staging.apps.paris-dev.cp.fyre.ibm.com"
 - op: replace
   path: /spec/path
   value: ""
