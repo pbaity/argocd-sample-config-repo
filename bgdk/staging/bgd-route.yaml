@@ -3,4 +3,4 @@
   value: "bgd-bgd.apps.paris-dev.cp.fyre.ibm.com"
 - op: replace
   path: /spec/path
-  value: "/staging"
+  value: ""
