@@ -5,7 +5,6 @@ metadata:
   labels:
     app: bgd
   name: bgd
-  namespace: "PATCH_ME"
 spec:
   host: "PATCH_ME"
   path: "PATCH_ME"

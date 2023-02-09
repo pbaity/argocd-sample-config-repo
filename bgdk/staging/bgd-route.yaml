@@ -1,7 +1,4 @@
 - op: replace
-  path: /metadata/namespace
-  value: "bgd-staging"
-- op: replace
   path: /spec/host
   value: "bgd-bgd.apps.paris-dev.cp.fyre.ibm.com"
 - op: replace
