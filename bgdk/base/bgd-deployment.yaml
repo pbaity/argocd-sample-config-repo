@@ -21,5 +21,8 @@ spec:
       containers:
       - image: quay.io/redhatworkshops/welcome-php:latest
         name: bgd
+        env:
+        - name: COLOR
+          value: "blue"
         resources: {}
 ---
