@@ -8,6 +8,7 @@ metadata:
   namespace: bgd
 spec:
   host: "PATCH_ME"
+  path: "PATCH_ME"
   port:
     targetPort: 8080
   to:

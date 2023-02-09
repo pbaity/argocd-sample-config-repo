@@ -12,5 +12,7 @@ patchesJson6902:
       group: route.openshift.io
       kind: Route
       name: bgd
-      namespace: bgd
+      namespace: bgd-production
     path: bgd-route.yaml
+resources:
+- bgd-namespace.yaml
