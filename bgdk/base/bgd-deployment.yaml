@@ -19,10 +19,7 @@ spec:
         app: bgd
     spec:
       containers:
-      - image: docker.io/nginxdemos/hello:latest
+      - image: quay.io/redhatworkshops/welcome-php:latest
         name: bgd
-        env:
-        - name: COLOR
-          value: "blue"
         resources: {}
 ---
