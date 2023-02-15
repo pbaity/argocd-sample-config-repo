@@ -13,5 +13,10 @@ patches:
       kind: Route
       name: bubbles-app
     path: route.yaml
+  - target:
+      version: v1
+      kind: Service
+      name: bubbles-app
+    path: service.yaml
 resources:
 - namespace.yaml

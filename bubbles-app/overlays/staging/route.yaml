@@ -1,3 +1,6 @@
 - op: replace
   path: /spec/host
   value: "bubbles-staging.apps.ibm-app-engine.rl25.p1.openshiftapps.com"
+- op: add
+  path: /metadata/namespace
+  value: iae-staging

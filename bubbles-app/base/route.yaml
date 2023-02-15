@@ -4,7 +4,6 @@ metadata:
   labels:
     app: bubbles-app
   name: bubbles-app
-  namespace: iae-staging
 spec:
   host: "PATCH_ME"
   port:
