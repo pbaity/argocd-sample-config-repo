@@ -1,0 +1,17 @@
+bases:
+- ../../base
+patches:
+  - target:
+      version: v1
+      group: apps
+      kind: Deployment
+      name: bubbles-app
+    path: deployment.yaml
+  - target:
+      version: v1
+      group: route.openshift.io
+      kind: Route
+      name: bubbles-app
+    path: route.yaml
+resources:
+- namespace.yaml

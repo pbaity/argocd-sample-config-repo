@@ -1,0 +1,3 @@
+- op: replace
+  path: /spec/host
+  value: "bubbles-staging.apps.ibm-app-engine.rl25.p1.openshiftapps.com"
