@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: bubbles-app-production
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: iae-production
+    server: https://kubernetes.default.svc 
+  project: default 
+  source: 
+    path: bubbles-app/overlays/production
+    repoURL: https://github.com/pbaity/argocd-sample-config-repo
+    targetRevision: main
+  syncPolicy: 
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
