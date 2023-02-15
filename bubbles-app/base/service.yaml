@@ -5,7 +5,7 @@ metadata:
   labels:
     app: bubble-app
   name: bubble-app
-  namespace: bubble-app
+  namespace: iae-staging
 spec:
   ports:
   - port: 8080
