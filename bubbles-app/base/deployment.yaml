@@ -5,7 +5,6 @@ metadata:
   labels:
     app: bubbles-app
   name: bubbles-app
-  namespace: iae-staging
 spec:
   replicas: 1
   selector:

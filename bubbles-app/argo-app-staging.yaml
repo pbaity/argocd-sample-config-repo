@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: bubbles-app
+  name: bubbles-app-staging
   namespace: openshift-gitops
 spec:
   destination:
