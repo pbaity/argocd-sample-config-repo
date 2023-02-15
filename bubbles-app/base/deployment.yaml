@@ -3,23 +3,23 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: bubble-app
-  name: bubble-app
+    app: bubbles-app
+  name: bubbles-app
   namespace: iae-staging
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: bubble-app
+      app: bubbles-app
   strategy: {}
   template:
     metadata:
       labels:
-        app: bubble-app
+        app: bubbles-app
     spec:
       containers:
       - image: quay.io/rhdevelopers/bgd:1.0.0
-        name: bubble-app
+        name: bubbles-app
         env:
         - name: COLOR
           value: "blue"

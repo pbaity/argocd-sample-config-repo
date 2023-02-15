@@ -2,8 +2,8 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   labels:
-    app: bubble-app
-  name: bubble-app
+    app: bubbles-app
+  name: bubbles-app
   namespace: iae-staging
 spec:
   host: "PATCH_ME"
@@ -11,5 +11,5 @@ spec:
     targetPort: 8080
   to:
     kind: Service
-    name: bubble-app
+    name: bubbles-app
     weight: 100
